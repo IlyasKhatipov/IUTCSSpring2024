@@ -1,0 +1,34 @@
+B. Task 2
+time limit per test1 second
+memory limit per test256 megabytes
+Given a Finitie State Automaton (FSA) and a set of strings, say which strings are accepted by the automaton.
+
+Input
+The first line contains numbers Q, S, F and N – number of states, input symbols, final states and words to check.
+The second line contains Q space-separated strings, representing the set of states of the FSA.
+The third line contains S space-separated symbols forming alphabet of the FSA.
+The following Q • S lines contain the transition function of FSA in the form of space-separated triplets (State, Input, New State).
+The next line contains the starting state.
+The next line contains F space-separated accepting states of the FSA.
+The final line contains N space-separated words.
+Output
+Should contain a single line with N letters 'A' or 'R', standing for Accept and Reject respectively.
+
+Example
+InputСкопировать
+2 2 1 6
+Locked Unlocked
+P C
+Locked P Locked
+Locked C Unlocked
+Unlocked P Locked
+Unlocked C Unlocked
+Locked
+Locked
+CC PCCP PPP PCCPPCCPPCCPCPCPCPCP C _
+OutputСкопировать
+R A A A R A 
+Note
+All strings consist of English letters and numbers 0-9. The only exception is string "_", representing the empty string. It may only appear among N words on the final input line.
+The transition function is guaranteed to be total.
+
