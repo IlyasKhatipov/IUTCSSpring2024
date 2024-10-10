@@ -1,0 +1,46 @@
+A. Task 1
+time limit per test2.5 seconds
+memory limit per test256 megabytes
+Given an alphabet Σ
+ as input, construct the following 3 languages:
+
+L1 = { s ∈
+ Σ∗
+ | each symbol in s appears even number of times };
+L2 = { s ∈
+ Σ∗
+ | all symbols from Σ are present in s };
+L3 = { s ∈
+ Σ∗
+ | exactly one symbol from Σ does not appear in s };
+Input
+The first line contains number N (1≤N≤15
+) – number of symbols in the alphabet.
+
+The second line contains N space-separated symbols (lower-case English letters and numbers 0-9).
+
+The third line contains three numbers M, K and L (1≤M≤1000
+, 1≤K≤1000
+, 1≤L≤1000
+) – how many strings to output for each language.
+
+Output
+Should contain three lines:
+
+The first line of output has to contain the first M strings of language L1.
+The second line of output has to contain the first K strings of language L2.
+The third line of output has to contain the first L strings of language L3.
+Example
+InputСкопировать
+2
+a b
+6 6 6
+OutputСкопировать
+_ aa bb aaaa aabb abab
+ab ba aab aba abb baa
+a b aa bb aaa bbb
+Note
+String ordering: the shortest strings come first. Two strings of equal length are compared lexicographically. For example, "bb" < "aaa", "abc" < "bbc".
+Use character "_" to represent the empty string.
+We guarantee that each language will have at least that many strings (M for L1, K for L2 and L for L3).
+
