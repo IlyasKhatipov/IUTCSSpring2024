@@ -1,9 +1,9 @@
 **README**
 
 ## Overview
-This repository contains solutions for three programming assignments focused on formal languages and automata theory.
+This repository contains solutions for three programming assignments completed as part of the **Theoretical Computer Science** course during the spring semester of 2024. The assignments focus on formal languages and automata theory.
 
-### Assignment 1 Task 1 - String Generator (Java)
+### Assignment 1 Task 1 – String Generator (Java)
 A program that generates strings from three specific languages (L1, L2, L3) over a given alphabet, based on length and count constraints.
 
 **Key Features:**
@@ -13,7 +13,7 @@ A program that generates strings from three specific languages (L1, L2, L3) over
 - L3: Missing exactly one alphabet symbol
 - Outputs strings sorted by length and lexicographically
 
-### Assignment 1 Task 2 - DFA Simulator (C++)
+### Assignment 1 Task 2 – DFA Simulator (C++)
 A deterministic finite automaton (DFA) simulator that processes input strings and determines acceptance/rejection.
 
 **Key Features:**
@@ -22,7 +22,7 @@ A deterministic finite automaton (DFA) simulator that processes input strings an
 - Outputs "A" for accepted strings, "R" for rejected ones
 - Handles empty string transitions
 
-### Assignment 2 Task A - FSA to Regular Expression Converter (C++)
+### Assignment 2 Task A – FSA to Regular Expression Converter (C++)
 Converts a finite state automaton (FSA) to an equivalent regular expression using the state elimination method (Floyd-Warshall variant).
 
 **Key Features:**
