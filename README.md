@@ -1,8 +1,9 @@
-**README**
+# Theoretical Computer Science (TCS) – Spring 2024  
+**Innopolis University**  
+*Course assignments repository*
 
-## Overview
-This repository contains solutions for three programming assignments completed as part of the **Theoretical Computer Science** course during the spring semester of 2024. The assignments focus on formal languages and automata theory.
 
+---
 ### Assignment 1 Task 1 – String Generator (Java)
 A program that generates strings from three specific languages (L1, L2, L3) over a given alphabet, based on length and count constraints.
 
